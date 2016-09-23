@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #f1f1f1;
+}
+	
+.idiomas{
+	text-decoration: none;
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.idiomas:hover {
+    text-decoration: none;
+}
+	
+.idiomas img{
+	width: 30px;
+}
+		
+.banner{
+	background-color: #5ab55a;
+    margin-bottom: 30px;
+    padding: 40px;
+    text-align: center;
+    font-size: 50;
+    color: white;
+}
+
+.panel-heading{
+    background-color: #f7f7f7;
+    background-image: none !important;
+    border-left: 4px solid #56b056 !important;
+}
+
+.modal-body{
+	background-color: #f1f1f1 !important;
+}
+
+.panel-title a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.cantidad-ciudades{
+	text-align: right;
+}
+
+.cantidad-ciudades > .badge{
+	background-color: #56b056 !important;
+}
