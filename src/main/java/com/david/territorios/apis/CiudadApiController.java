@@ -23,7 +23,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.david.territorios.entidades.Ciudad;
 import com.david.territorios.managers.CiudadManager;
-import com.david.territorios.managers.UsuarioManager;
 import com.david.territorios.utilidades.JsonTransformer;
 
 

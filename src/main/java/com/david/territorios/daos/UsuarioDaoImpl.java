@@ -1,23 +1,16 @@
 package com.david.territorios.daos;
 
-import org.springframework.stereotype.Repository;
-
-import com.david.territorios.entidades.Departamento;
-import com.david.territorios.entidades.Pais;
-import com.david.territorios.entidades.Usuario;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.sql.DataSource;
+
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Repository;
 
-import javax.sql.DataSource;
+import com.david.territorios.entidades.Usuario;
 
 @Repository
 public class UsuarioDaoImpl implements UsuarioDao{

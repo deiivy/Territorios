@@ -1,9 +1,7 @@
 package com.david.territorios.apis;
 
-
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.Base64;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
